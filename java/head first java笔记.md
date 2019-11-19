@@ -454,3 +454,56 @@ java通过线程实现多步同时进行，通过java类Thread的实例化构建
 - 有线程锁的方法用synchronized修饰
 - 线程锁是每个类所具有的的，不是每个synchronized方法锁具有的，也就是当一个线程访问了该类的synchronized方法，这个类的线程锁被锁起来，在synchronized方法访问完之前，其他的任何线程都不能访问该类的任何一个synchronized方法
 - 线程死锁：两个进程同时都没有进行完，但都同时拥有对方能进行完的钥匙，所以会产生死循环式的等待
+
+
+
+### 16.connections and generics
+
+#### connections 种类
+
+![image-20191118145419749](head first java笔记.assets/image-20191118145419749.png)
+
+java.util.connections方法：
+
+![image-20191118145941962](head first java笔记.assets/image-20191118145941962.png)
+
+树在添加时是按照顺序排列好的——treeset
+
+list添加时直接排列在最后端，因此知道排列在哪，但不知道顺序
+
+
+
+#### generics
+
+能够使得collections变得更为安全，限制collections中储存的object的性质
+
+<img src="head first java笔记.assets/image-20191118150923879.png" alt="image-20191118150923879" style="zoom: 33%;" />
+
+genercis的使用
+
+1. 创建的如arraylist的列表用generic创立
+2. 声明更为generic的项
+3. 使用方法传输参数为更为generic的object
+
+![image-20191118151623102](head first java笔记.assets/image-20191118151623102.png)
+
+
+
+对于arrayList的使用：
+
+![image-20191118151752472](head first java笔记.assets/image-20191118151752472.png)
+
+
+
+#### 使用generic的方法：
+
+![image-20191118154157023](head first java笔记.assets/image-20191118154157023.png)
+
+上一种方法能够传递多态的元素，而下一种不可以
+
+collections的sort()声明是
+
+![image-20191118154358403](head first java笔记.assets/image-20191118154358403.png)
+
+因此sort方法仅能传递容纳可以比较的object 的list
+
