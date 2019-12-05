@@ -329,3 +329,4 @@ eager implementation是修改lazy implementation，删除树中间节点之间�
 完成所有工作的最短时间即为s到t的最长路径。
 
 ![1570277773686](C:\Users\李甘霖\AppData\Roaming\Typora\typora-user-images\1570277773686.png)
+

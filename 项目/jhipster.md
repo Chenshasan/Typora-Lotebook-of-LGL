@@ -70,6 +70,8 @@ npm link generator-jhipster-vuejs
 jhipster -d --blueprints vuejs
 ```
 
+
+
 #### bootstrap-vue项目初始化
 
 - 依赖导入：如果依赖导入过程中断可以通过file-invaild cache and restart来重新导入
