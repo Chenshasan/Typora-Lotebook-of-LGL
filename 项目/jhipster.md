@@ -82,3 +82,13 @@ jhipster -d --blueprints vuejs
 - 可以通过npm audit fix来进行部分修复（作用不好说）
 - 记得开后端项目（整体项目结构为通过后端直接run整个app文件，当配置完成后直接run app即可）
 
+
+
+
+
+07 蒙哥
+
+08 ia
+
+09 duet
+
