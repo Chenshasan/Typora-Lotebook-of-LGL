@@ -1,0 +1,11 @@
+- 首先完成作业：数据结构/机组上机和书面/线性代数/离散数学
+- 数据结构：~~继续看algorithm~~（先暂时停下来）/刷leetcode
+- 线性代数：看linear algebra/coursera线性代数教程
+- 看head first java
+- 计组：<u>看计组教科书</u>（暂且先不看）
+- <u>学习使用jhisper</u>
+- 开始学web develop的网课，跟着做项目
+- 看《老友记》
+- ~~看完idea官网文档~~（先不用熟悉所有的，基本功能都会了）
+- 做TPO oj
+
